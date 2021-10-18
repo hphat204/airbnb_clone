@@ -1,0 +1,25 @@
+.cardItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 32%;
+  cursor: pointer;
+}
+
+.cardItem img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.cardItem h3 {
+  margin-top: 10px;
+}
+
+.cardItem p {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Card.css.map */

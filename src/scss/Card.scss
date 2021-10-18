@@ -1,0 +1,16 @@
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  cursor: pointer;
+  img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+  p {
+    margin-top: 10px;
+  }
+}

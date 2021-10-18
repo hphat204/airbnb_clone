@@ -1,0 +1,38 @@
+.shareContainer {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 80%;
+    border-radius: 20px;
+  }
+  .content {
+    color: white;
+    position: absolute;
+    min-height: 200px;
+    width: 30%;
+    top: 20%;
+    left: 15%;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      line-height: 150%;
+    }
+    button {
+      border: none;
+      padding: 20px 30px;
+      border-radius: 10px;
+      margin-top: 30px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

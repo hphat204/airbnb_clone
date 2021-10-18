@@ -1,0 +1,53 @@
+.shareContainer {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shareContainer img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.shareContainer .content {
+  color: white;
+  position: absolute;
+  min-height: 200px;
+  width: 30%;
+  top: 20%;
+  left: 15%;
+}
+
+.shareContainer .content h1 {
+  font-size: 3rem;
+}
+
+.shareContainer .content p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.shareContainer .content button {
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Share.css.map */

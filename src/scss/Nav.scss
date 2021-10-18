@@ -1,0 +1,72 @@
+$tomatoColor: #ff385c;
+
+.Navcontainer {
+  display: flex;
+  min-height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+
+  form {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    position: relative;
+    margin-left: 150px;
+    input {
+      border-radius: 25px;
+      padding: 15px 20px;
+      width: 100%;
+      border: none;
+      font-weight: bold;
+    }
+    button {
+      position: absolute;
+      border-radius: 50%;
+      padding: 5px 8px;
+      background-color: $tomatoColor;
+      border: none;
+      top: 7px;
+      right: 7px;
+    }
+  }
+  .info-list {
+    display: flex;
+
+    .list-task {
+      display: flex;
+      margin-right: 30px;
+      align-items: center;
+      img {
+        &:hover {
+          background-color: rgba(white, 0.1);
+          cursor: pointer;
+        }
+      }
+      button {
+        margin-right: 30px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+        &:hover {
+          background-color: rgba(whitesmoke, 0.1);
+          cursor: pointer;
+        }
+      }
+    }
+    .user-info {
+      display: flex;
+      background-color: white;
+      width: 70px;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 20px;
+      padding: 5px 5px 5px 13px;
+      cursor: pointer;
+    }
+  }
+}
