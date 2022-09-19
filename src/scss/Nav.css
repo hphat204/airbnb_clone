@@ -12,6 +12,14 @@
   width: 100%;
 }
 
+.Navcontainer .logo:hover {
+  cursor: pointer;
+}
+
+.Navcontainer .search-btn {
+  cursor: pointer;
+}
+
 .Navcontainer form {
   display: -webkit-box;
   display: -ms-flexbox;

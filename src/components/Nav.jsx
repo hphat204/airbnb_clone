@@ -33,10 +33,12 @@ function Nav() {
         transition: fixedNav && " 0.2s ease-in",
       }}
     >
-      <img src={fixedNav ? redLogo : logo} width="100px" alt="logo" />
+      <div className="logo">
+        <img src={fixedNav ? redLogo : logo} width="100px" alt="logo" />
+      </div>
       <form>
         <input type="text" placeholder="Bắt đầu tìm kiếm" style={{ boxShadow: "0 0 1px gray" }} />
-        <button>
+        <button className="search-btn">
           <img src={searchIcon} width="20px" alt="search icon" />
         </button>
       </form>

@@ -7,7 +7,12 @@ $tomatoColor: #ff385c;
   align-items: center;
   position: absolute;
   width: 100%;
-
+  .logo:hover {
+    cursor: pointer;
+  }
+  .search-btn {
+    cursor: pointer;
+  }
   form {
     display: flex;
     align-items: center;
